@@ -1,0 +1,30 @@
+
+.customers__list {
+  @extend %align;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.customers__item-link {
+  @extend %align;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: border var(--transition-dur-and-func);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
+}
+.customers__list-icon {
+  fill: #afb1b8;
+  transition: fill var(--transition-dur-and-func);
+
+  .customers__item-link:hover &,
+  .customers__item-link:focus & {
+    fill: var(--accent-color);
+  }
+}

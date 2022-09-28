@@ -1,0 +1,22 @@
+.top-line__logo {
+  font-family: var(--secondary-font);
+  @include font (26px, 700, 31px);
+  color: var(--dark-logo-color);
+  
+}
+@media screen and (min-width: 1200px) {
+  .top-line__logo {
+    margin-right: 93px;
+  }
+  
+}
+
+.footer-page__logo {
+  font-family: var(--secondary-font);
+  @include font (26px, 700, 31px);
+  color: var(--light-logo-color);
+  
+}
+.accent {
+  color: var(--accent-color);
+}

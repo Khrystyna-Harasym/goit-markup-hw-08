@@ -1,0 +1,53 @@
+// =====================MOBILE VERSION=====================//
+
+.feature__container {
+    display: flex;
+    
+    
+  }
+  .feature__subtitle{
+    @extend %align;
+     
+  }
+  .feature__text {
+    line-height: 1.71;
+    color: var(--secondary-text-color-theme-light);
+  }
+  .feature__icon {
+    @extend %align;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: var(--secondary-background-color);
+  }
+
+  @media screen and (max-width: 767px) {
+  .feature__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+  }
+ 
+}
+// =====================TABLET VERSION=====================//
+@media screen and (min-width: 768px) { 
+  .feature__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .feature__item {
+    flex-basis: calc((100% - 30px) / 2);
+    
+  }
+
+}
+// =====================DESKTOP VERSION=====================//
+
+@media screen and (min-width: 1200px) {
+  
+   .feature__item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+}

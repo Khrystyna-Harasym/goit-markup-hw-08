@@ -1,0 +1,8 @@
+.title {
+  @extend %align;
+  }
+  .title-section {
+    @include font (36px, 700, 42px);
+    margin-bottom: 50px;
+  }
+  
