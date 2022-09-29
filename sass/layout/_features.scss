@@ -7,6 +7,10 @@
   }
   .feature__subtitle{
     @extend %align;
+    @media screen and (min-width: 768px) and(max-width: 1199px){
+      justify-content: flex-start;
+      
+    }
      
   }
   .feature__text {

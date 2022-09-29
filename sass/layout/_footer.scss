@@ -26,6 +26,9 @@
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
   }
+  .footer__address{
+    @include font(14px, 400, 24px);
+  }
   
   .mail-input{
     height: 50px;
