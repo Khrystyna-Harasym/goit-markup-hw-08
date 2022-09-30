@@ -770,7 +770,7 @@ ol {
 
 .main-hero {
   max-width: 1600px;
-  padding: 118px 0;
+  padding: 200px 0;
   margin-left: auto;
   margin-right: auto;
   background-color: rgb(196, 196, 196);
@@ -982,12 +982,8 @@ ol {
 }
 
 .footer-page {
+  padding: 60px 0;
   background-color: var(--accent-background-color);
-}
-
-.footer-page__container {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .address-list {
